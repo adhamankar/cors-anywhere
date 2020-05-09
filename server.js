@@ -28,6 +28,7 @@ cors_proxy.createServer({
   removeHeaders: [
     'cookie',
     'cookie2',
+    'user-agent',
     // Strip Heroku-specific headers
     'x-heroku-queue-wait-time',
     'x-heroku-queue-depth',
